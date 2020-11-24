@@ -1,0 +1,31 @@
+.Navbar {
+    .v-input__slot {
+        min-height: auto !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+    .v-input__prepend-inner,
+    .v-input__append-inner {
+        margin-top: 7px !important;
+    }
+    // 검색창 활성화시 색 바꾸기 시도 흔적
+    // .v-application .primary--text {
+    //     caret-color: green !important;
+    // }
+    //  :root {
+    //     --swiper-theme-color: green !important;
+    // }
+    //  언어 설정 탭 확장 아이콘 없애기 위한 흔적
+    // .theme--light.v-expansion-panels .v-expansion-panel-header .v-expansion-panel-header__icon .v-icon {
+    //     color: white !important;
+    // }
+    // .mdi-chevron-down::before {
+    //     display: none !important;
+    // }
+    // .v-expansion-panel-header__icon {
+    //     display: none !important;
+    // }
+    // .v-icon notranslate mdi mdi-chevron-down theme--light {
+    //     display: none !important;
+    // }
+}

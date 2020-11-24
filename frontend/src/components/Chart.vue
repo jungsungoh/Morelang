@@ -1,0 +1,24 @@
+<script>
+import { Scatter } from 'vue-chartjs'
+
+export default {
+  extends: Scatter,
+  props: {
+    chartdata: {
+      type: Object,
+      default: null
+    },
+    options: {
+      type: Object,
+      default: null,
+      fill:false
+    }
+  },
+  mounted () {
+    this.renderChart(this.chartdata, this.options)
+  }
+}
+</script>
+
+<style>
+</style>
